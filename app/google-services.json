@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560805817431",
+    "firebase_url": "https://chatapp-d3f3d.firebaseio.com",
+    "project_id": "chatapp-d3f3d",
+    "storage_bucket": "chatapp-d3f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560805817431:android:b9bb2b30b4705bc8",
+        "android_client_info": {
+          "package_name": "com.arturofilio.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560805817431-gbfdl75si2ejssfdfpies2nneno0aqc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arturofilio.chatapp",
+            "certificate_hash": "8efe802d6cef29f444c2f89f38be3f3ec4731d68"
+          }
+        },
+        {
+          "client_id": "560805817431-j47bkdo6mreu1ah2ld321thgkonrhcnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7t-3leXaekgHTsenSNqb3InWV4T8qFcM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560805817431-j47bkdo6mreu1ah2ld321thgkonrhcnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
