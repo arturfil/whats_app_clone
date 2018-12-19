@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.arturofilio.chatapp.Fragments.ChatsFragment;
+import com.arturofilio.chatapp.Fragments.ProfileFragment;
 import com.arturofilio.chatapp.Fragments.UsersFragment;
 import com.arturofilio.chatapp.Model.User;
 import com.bumptech.glide.Glide;
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPageAdapter viewPageAdapter = new ViewPageAdapter(getSupportFragmentManager());
         viewPageAdapter.addFragment(new ChatsFragment(), "Chats");
         viewPageAdapter.addFragment(new UsersFragment(), "Users");
+        viewPageAdapter.addFragment(new ProfileFragment(), "Profile");
 
         viewPager.setAdapter(viewPageAdapter);
         tabLayout.setupWithViewPager(viewPager);
